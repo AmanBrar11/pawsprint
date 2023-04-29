@@ -1,0 +1,182 @@
+/* styles.css */
+
+body {
+    position: relative;
+    width: 1280px;
+    height: 4703px;
+    background: #FFFFFF;
+    margin: 0;
+}
+
+/* NavBar */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 124px;
+    gap: 20px;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #C9C8FF;
+  }
+
+.logo {
+    width: 100px;
+    height: 58px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+.logo-text {
+    width: 100px;
+    height: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #212529;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 10px;
+  }
+
+  .one-paw-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 325px;
+    padding-bottom: 50px;
+    padding-left: 127px;
+  }
+  
+  .one-paw-heading {
+    width: 355px;
+    height: 47px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    align-self: flex-start;
+  }
+  
+  .one-paw-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* adjust the width if needed */
+    max-width: 1200px; /* adjust the max-width if needed */
+  }
+  
+  .one-paw-description {
+    width: 417px;
+    height: 166px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+    align-self: flex-start;
+  }
+
+  .right-content {
+    margin-top: -175px;
+  }
+
+/* Sponsor and Mission Section */
+
+.sponsor-mission-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%; /* added */
+  }
+
+
+.sponsor-image {
+    position: absolute;
+    width: 178px;
+    height: 135px;
+    left: 132px;
+    top: 960px;
+    background: url(Screenshot 2023-04-28 at 3.32.png);
+}
+
+.sponsor-heading {
+    position: absolute;
+    width: 374px;
+    height: 47px;
+    left: 154px;
+    top: 1075px;
+    /* Heading 1 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+    text-align: center;
+    color: #000000;
+}
+
+.sponsor-description {
+    position: absolute;
+    width: 417px;
+    height: 137px;
+    left: 151px;
+    top: 1175px;
+    /* Body 1 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.mission-heading {
+    position: absolute;
+    width: 434px;
+    height: 47px;
+    left: 696px;
+    top: 1075px;
+    /* Heading 1 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+    text-align: center;
+    color: #000000;
+}
+
+.mission-description {
+    position: absolute;
+    width: 434px;
+    height: 130px;
+    left: 696px;
+    top: 1150px;
+    /* Body 1 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
