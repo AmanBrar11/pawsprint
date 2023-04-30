@@ -116,7 +116,7 @@ body {
     width: 178px;
     height: 135px;
     left: 132px;
-    top: 960px;
+    top: 910px;
     background: url(Screenshot 2023-04-28 at 3.32.png);
 }
 
@@ -125,7 +125,7 @@ body {
     width: 374px;
     height: 47px;
     left: 154px;
-    top: 1075px;
+    top: 1025px;
     /* Heading 1 */
     font-family: 'Montserrat';
     font-style: normal;
@@ -141,8 +141,8 @@ body {
     position: absolute;
     width: 417px;
     height: 137px;
-    left: 151px;
-    top: 1175px;
+    left: 180px;
+    top: 1125px;
     /* Body 1 */
     font-family: 'Montserrat';
     font-style: normal;
@@ -157,7 +157,7 @@ body {
     width: 434px;
     height: 47px;
     left: 696px;
-    top: 1075px;
+    top: 1025px;
     /* Heading 1 */
     font-family: 'Montserrat';
     font-style: normal;
@@ -173,8 +173,8 @@ body {
     position: absolute;
     width: 434px;
     height: 130px;
-    left: 696px;
-    top: 1150px;
+    left: 735px;
+    top: 1100px;
     /* Body 1 */
     font-family: 'Montserrat';
     font-style: normal;
