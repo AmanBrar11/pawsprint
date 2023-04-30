@@ -1,12 +1,8 @@
 /* styles.css */
 
 body {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  min-height: 100vh;
   background: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
   overflow-x: hidden;
 }
 
@@ -97,8 +93,10 @@ body {
     align-self: flex-start;
   }
 
-  .right-content {
-    margin-top: -175px;
+  .one-paw-image {
+    position: absolute;
+    top: 225px;
+    right: 100px;
   }
 
 /* Sponsor and Mission Section */
@@ -432,7 +430,7 @@ flex-grow: 0;
   .about-heading {
     position: absolute;
     top: 3500px;
-    left: 600px;
+    left: 575px;
     width: 175px;
     height: 47px;
     font-family: 'Montserrat';
@@ -445,7 +443,7 @@ flex-grow: 0;
   .about-text {
     position: absolute;
     top: 3575px;
-    left: 590px;
+    left: 565px;
     width: 220px;
     height: 26px;
     font-family: 'Montserrat';
@@ -457,7 +455,7 @@ flex-grow: 0;
 
   .profile-photos {
     position: absolute;
-    top: 4000px;
+    top: 3700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -474,3 +472,38 @@ flex-grow: 0;
       width: 45%;
     }
   }
+
+  .team-member-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+  }
+
+  .footer {
+    position: absolute;
+    top: 4650px;
+    background: #5951B3;
+    width: 100%;
+  }
+
+  .footer-image {
+    position:absolute;
+    top: 23px;
+    left: 75px;
+  }
+
+  .footer-logo-text {
+    position: relative;
+    left: 330px;
+    width: 289px;
+    height: 84px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+   }
