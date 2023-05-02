@@ -1,115 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paws Print</title>
-    <link rel="stylesheet" href="styles.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paws Print</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="container">
-<!-- Header -->
-<header class="navbar">
-    <img src="img/pawsprintlogotop.png" alt="Paws Print Logo" class="logo">
-    <span class="logo-text">Paws Print</span>
-</header>
-<!-- One Paw at a Time Section -->
-<section class="one-paw-section">
-    <h1 class="one-paw-heading">One Paw at a Time</h1>
-    <div class="one-paw-content">
-      <div class="left-content">
-        <p class="one-paw-description">
-          In Argentina, there is a significant issue with animal overpopulation. Paws Print helps animal shelters in Argentina support and relieve this population through education and community connection.
+
+<body>
+  <!-- Header -->
+  <nav class="py-3 navbar fixed-top">
+    <div class="container">
+      <div class="d-flex">
+        <img class="me-3" src="img/pawsprintlogotop.png" alt="Paws Print Logo" class="logo">
+        <span class="my-auto">Paws Print</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- One Paw at a Time Section -->
+  <section class="container">
+    <div class="row align-items-center justify-content-center vh-100">
+      <div class="col">
+        <h1>One Paw at a Time</h1>
+        <p>
+          In Argentina, there is a significant issue with animal overpopulation. Paws Print helps animal shelters in
+          Argentina support and relieve this population through education and community connection.
         </p>
       </div>
-      <div>
-        <img class="one-paw-image" src="img/tugofwar.png" alt="Descriptive image alt text">
+      <div class="col d-flex justify-content-center">
+        <img id="hero-img" src="img/tugofwar.png" alt="Woman and dog playing">
       </div>
     </div>
   </section>
-<!-- Section with sponsor and mission -->
-<section class="sponsor-mission-section">
-    <div class="sponsor-section">
-        <div class="sponsor-image">
-            <img src="img/vinolylogo.png" alt="Sponsor Image">
+
+  <!-- Section with sponsor and mission -->
+  <section class="container mb-5">
+    <div class="row align-items-center mb-5 pb-5">
+      <div class="col d-flex align-self-stretch flex-column justify-content-end me-5">
+        <div>
+          <img class="pb-3" id="vinoly-logo" src="img/vinolylogo.png" alt="Sponsor Image">
+          <h1 class="pb-1">Our Sponsor: Vinoly</h3>
+            <p>For our capstone project, we reached out to Vinoly, a tech consulting company based
+              in Argentina. We worked together on their passion project to conduct research to educate their animal
+              shelters.
+            </p>
         </div>
-        <h3 class="sponsor-heading">Our Sponsor: Vinoly</h3>
-        <p class="sponsor-description">For our capstone project, we reached out to Vinoly, a tech consulting company based in Argentina. We worked together on their passion project to conduct research to educate their animal shelters.</p>
+      </div>
+      <div class="col d-flex align-self-stretch flex-column justify-content-end">
+        <div class="align-self-end">
+          <h1 class="pb-1">Our Mission Statement</h1>
+          <p>How might we encourage underfunded animal shelters in Argentina to adopt effective
+            U.S. animal shelter practices so that they may transition into civil associations? <br>
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="mission-section">
-        <h3 class="mission-heading">Our Mission Statement</h3>
-        <p class="mission-description">How might we encourage underfunded animal shelters in Argentina to adopt effective U.S. animal shelter practices so that they may transition into civil associations?</p>
+    <div class="row mb-5">
+      <div class="col">
+        <h1 class="pb-1">DISCONTINUATION NOTICE</h1>
+        <p>After the University of Washington’s Spring 2023 quarter, Vinoly will have complete
+          ownership of the projects below and Gradient will have no ownership or involvement in all of these projects.
+          To contact the project owner, email them at: belisa@vinoly.tech</p>
+      </div>
     </div>
-</section>
-<!-- Our Projects Section -->
-<section class="our-projects-section">
-  <h2 class="our-projects-heading">Our Projects</h2>
-    <p class="our-projects-sub-heading">Our solutions to providing relief to animal shelters in Argentina</p>
-  <div>
-    <h3 class="resource-guideline-header">Resource Guideline</h3>
-      <p class="resource-guideline-text">Our team has conducted extensive research and collaborated with leading U.S. animal shelters to identify best practices for shelter structure and organization. The resource guide aims to empower underfunded shelters in Argentina.</p>
-        <button class="resource-button-shape">
-          <span class="resource-button-text">View Guideline</span>
-        </button>
-          <img class="resource-image" src="img/resourceguideline.png" alt="Resource Guideline">
-  </div>
-  <div>
-    <h3 class="landing-page-header">Landing Page for Vinoly</h3>
-      <p class="landing-page-text">Vinoly proposed an application focused on corporate social responsibility that connects resources and funds with animal shelters in Argentina. We designed a landing page for this application to best inform users of their mission.</p>
-        <button class="landing-button-shape">
-          <span class="landing-button-text">View Page</span>
-        </button>
-          <img class="landing-image" src="img/landingpageimg.png" alt="Landing Page">
-  </div>
-  <div>
-    <h3 class="volunteer-header">Platform for Volunteer Opportunities</h3>
-      <p class="volunteer-text">Shelters are having trouble finding volunteers. Many people want to help but don’t know how. We design a website to help bridge the gap between shelters and volunteers.</p>
-        <button class="volunteer-button-shape">
-          <span class="volunteer-button-text">View Platform</span>
-        </button>
+  </section>
+
+  <!-- Our Projects Section -->
+  <section id="projects-section" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5 pb-5">
+        <h1>Our Projects</h1>
+      <p>Our solutions to providing relief <br> to animal shelters in Argentina</p>
+      </div>
+      <div class="row">
+        <div class="col m-auto">
+          <h2>Resource Guideline</h2>
+          <p>Our team has conducted extensive research and collaborated with leading U.S.
+            animal shelters to identify best practices for shelter structure and organization. The resource guide aims
+            to
+            empower underfunded shelters in Argentina.</p>
+          <a class="btn btn-primary" href="#" role="button">View Guideline</a>
+        </div>
+        <div class="col m-auto">
+          <img src="img/resourceguideline.png" alt="Resource Guideline">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m-auto">
+          <img src="img/landingpageimg.png" alt="Landing Page">
+        </div>
+        <div class="col m-auto">
+          <h2>Landing Page for Vinoly</h2>
+          <p>Vinoly proposed an application focused on corporate social responsibility that
+            connects resources and funds with animal shelters in Argentina. We designed a landing page for this
+            application
+            to best inform users of their mission.</p>
+          <a class="btn btn-primary" href="#" role="button">View Page</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m-auto">
+          <h2 class="volunteer-header">Platform for Volunteer Opportunities</h2>
+          <p class="volunteer-text">Shelters are having trouble finding volunteers. Many people want to help but don’t
+            know
+            how. We design a website to help bridge the gap between shelters and volunteers.</p>
+          <a class="btn btn-primary" href="#" role="button">View Platform</a>
+        </div>
+        <div class="col m-auto">
           <img class="volunteer-image" src="img/volunteerplatform.png" alt="Volunteer Platform">
-  </div>
-</section>
-<section class="video-section">
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/8SVHSA3aoRI"></iframe>
-  </div>
-</section>
-<!-- About Us Section -->
-<section>
-  <h3 class="about-heading">About Us</h3>
-    <p class="about-text">We're Team Gradient</p>
-  <div class="profile-photos">
-  <div>
-      <img src="img/kenny.png" alt="Profile 1">
-      <p class="team-member-text">Kenny Pham <br>
-      Project Manager</p>
-  </div>
-  <div>
-      <img src="img/Aman.png" alt="Profile 2">
-      <p class="team-member-text">Aman Brar <br>
-      Data Analyst/Developer</p>
-  </div>
-  <div>
-      <img src="img/catherine.png" alt="Profile 3">
-      <p class="team-member-text">Catherine Lien <br>
-      UX Designer</p>
-  </div>
-  <div>
-      <img src="img/cheryl.png" alt="Profile 4">
-      <p class="team-member-text">Cheryl Feng <br>
-      Data Analyst</p>
-  </div>
-  <div>
-      <img src="img/cameron.png" alt="Profile 5">
-      <p class="team-member-text">Cameron Rezek <br>
-      Product Designer</p>
-  </div>
-  </div>
-</section>
-<!-- Footer Section -->
-<footer class="footer">
-  <img class="footer-image" src="img/footerlogo.png" alt="Footer Logo">
-  <p class="footer-logo-text">Paws Print</p>
-</footer>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Video -->
+  <section id="video-section" class="container my-5">
+    <div class="col">
+      <iframe class="w-100 h-100" src="https://www.youtube.com/embed/8SVHSA3aoRI"></iframe>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="container pb-5">
+    <div class="text-center mb-5">
+      <h1 class="about-heading">About Us</h1>
+    <p><i>We're Team Gradient!</i></p>
+    </div>
+    
+    <div class="row">
+      <div class="col d-flex align-items-center flex-column p-4">
+        <img src="img/kenny.png" alt="Profile 1">
+        <p class="text-center">Kenny Pham <br>
+          Project Manager</p>
+      </div>
+      <div class="col d-flex align-items-center flex-column p-4">
+        <img src="img/Aman.png" alt="Profile 2">
+        <p class="text-center">Aman Brar <br>
+          Data Analyst/Developer</p>
+      </div>
+      <div class="col d-flex align-items-center flex-column p-4">
+        <img src="img/catherine.png" alt="Profile 3">
+        <p class="text-center">Catherine Lien <br>
+          UX Designer</p>
+      </div>
+      <div class="col d-flex align-items-center flex-column p-4">
+        <img src="img/cheryl.png" alt="Profile 4">
+        <p class="text-center">Cheryl Feng <br>
+          Data Analyst</p>
+      </div>
+      <div class="col d-flex align-items-center flex-column p-4">
+        <img src="img/cameron.png" alt="Profile 5">
+        <p class="text-center">Cameron Rezek <br>
+          Product Designer</p>
+      </div>
+    </div>
+  </section>
 </body>
+
+<!-- Footer Section -->
+<footer class="py-3">
+  <div class="container">
+    <div class="d-flex">
+      <img class="me-3" src="img/footerlogo.png" alt="Footer Logo">
+      <span class="my-auto">Paws Print</span>
+    </div>
+  </div>
+</footer>
+
 </html>
