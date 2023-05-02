@@ -13,6 +13,7 @@ Notion Page: https://pawsprint.notion.site/Paws-Print-2caa4c60151e482e9ee745da11
 Vinoly proposed an application focused on corporate social responsibility that connects resources and funds with animal shelters in Argentina. We designed a landing page for this application to best inform users of their mission. Our prototypes can be found on its respective Figma page. The design was led by Vinoly to best work with their Paws Print application.
 
 Figma Page: https://www.figma.com/file/rMw0lgKB02WoWsmw18XvIS/Landing-Page?node-id=0%3A1&t=6A0L31UslTJka8rq-1
+
 Our final design can be found on its respective Squarespace page: https://glockenspiel-oleander-bzja.squarespace.com/ (private, shared with Belisa)
 
 *__Platform for Volunteer Opportunities__*
