@@ -24,4 +24,4 @@ Shelters are having trouble finding volunteers. Many people want to help but don
 
 Figma Page: https://www.figma.com/file/c87ReWlJ7ID1ITybGWpezh/Landing-Page?node-id=189%3A2950&t=Z8642Bq5hm8ihza6-1
 
-After the University of Washington’s Spring 2023 quarter, Vinoly will have complete ownership of the projects below and Gradient will have no ownership or involvement in all of these projects. To contact the project owner, email them at: belisa@vinoly.tech
+After the University of Washington’s Spring 2023 quarter, Vinoly will have complete ownership of the projects below and Gradient will have no ownership or involvement in all of these projects. To contact the project owner, email them at belisa@vinoly.tech
