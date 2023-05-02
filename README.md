@@ -5,9 +5,9 @@ There is an escalating stray dog problem in Argentina, leading to significant ch
 Projects Detailed Below:
 
 *__Resource Guideline__*
-Our team has conducted extensive research and collaborated with leading U.S. animal shelters to identify best practices for shelter structure and organization. The resource guide aims to empower underfunded shelters in Argentina.
+Our team has conducted extensive research and collaborated with leading U.S. animal shelters to identify best practices for shelter structure and organization. The resource guide aims to empower underfunded shelters in Argentina. All of our research and findings are detailed on this project’s Notion page. 
 
-All of our research and findings are detailed on this project’s Notion page: https://pawsprint.notion.site/Paws-Print-2caa4c60151e482e9ee745da1173accb
+Notion Page: https://pawsprint.notion.site/Paws-Print-2caa4c60151e482e9ee745da1173accb
 
 *__Landing Page for Vinoly__*
 Vinoly proposed an application focused on corporate social responsibility that connects resources and funds with animal shelters in Argentina. We designed a landing page for this application to best inform users of their mission. Our prototypes can be found on its respective Figma page. The design was led by Vinoly to best work with their Paws Print application.
