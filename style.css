@@ -14,13 +14,7 @@ span {
     font-weight: 700;
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 32px;
+h1, h2 {
     font-weight: 700;
 }
 
@@ -74,5 +68,17 @@ footer img {
 @media only screen and (max-width: 768px) {
     #hero-section {
         margin-top: 120px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 32px;
+        font-weight: 700;
     }
 }
