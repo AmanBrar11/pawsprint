@@ -62,3 +62,17 @@ footer img {
     width: 178px;
     height: 135px;
 }
+
+#hero-section {
+    margin-top: 80px;
+}
+
+#sponsor-section {
+    margin-bottom: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    #hero-section {
+        margin-top: 120px;
+    }
+}
