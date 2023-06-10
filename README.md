@@ -1,5 +1,7 @@
 # PawsPrint
 
+[Our Project on the University of Washington's iSchool Capstone Catalog](https://ischool.uw.edu/capstone/projects/2023/all-animals-have-home-paws-print)
+
 [View iSchool Capstone Submission Landing Page Here](https://amanbrar11.github.io/pawsprint/)
 
 There is an escalating stray dog problem in Argentina, leading to significant challenges for underfunded animal shelters, which struggle with funding, organization, and volunteer recruitment. In collaboration with Vinoly, Paws Print has developed three deliverables aimed at addressing these issues: a resource guide offering best practices for shelter organization, a landing page for Vinoly’s website, and a platform we designed that connects shelters with volunteers. Paws Print aspires to create a lasting impact on animal welfare in Argentina.
